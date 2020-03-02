@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+}
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#headerContainer h1 {
+  display: flex;
+  justify-content: center;
+}
+
+#bodyContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+#messagesContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#usersContainer {
+  display: flex;
+  flex-direction: column;
+}
